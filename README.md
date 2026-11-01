@@ -11,7 +11,7 @@ also included; top-k is a lossy codec and is measured as such.
 
 Code: https://github.com/DrMkdaddy/qwen-moe-stream  
 Model card source: [`hf/README.md`](hf/README.md) (weights are published separately;
-see `scripts/publish_hf.sh`).
+the upload script is `scripts/publish_hf.sh`).
 
 ## Results
 
@@ -26,7 +26,6 @@ Held-out perplexity, 512-token context, CPU (`llama-perplexity`):
 | dense Qwen3-4B (Q4_K_M) | **17.6203** | 1.000× | 0 (dense tensor) |
 | MoE8 exact, all 8 experts | **17.6157** | 0.9997× | 5.379 GB |
 | MoE8 top-6, ridge router | **20.8920** | 1.186× | 4.037 GB |
-| MoE8 top-7, ridge router | not re-run after the temperature fix | — | 4.710 GB |
 
 Logit-level comparison of exact MoE against the dense model on the same
 held-out text (`--kl-divergence`):
