@@ -14,6 +14,7 @@
 | `router_*_top*.history.json` | per-layer alpha and calibration error |
 | `greedy/` | greedy generation transcripts, dense vs exact |
 | `ppl.json` | perplexity table for all models |
+| `CHECKSUMS.txt` | SHA-256 of the published GGUF weights |
 
 The `router_gradient_*` files and `stream_gradient_top6.json` are the
 gradient-trained variant kept as a negative result (see `docs/DESIGN.md`).
