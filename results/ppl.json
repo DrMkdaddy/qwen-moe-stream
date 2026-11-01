@@ -22,6 +22,13 @@
       "ppl": 20.892,
       "stderr": 4.1103,
       "ratio_vs_first": 1.1856778828964318
+    },
+    {
+      "model": "Qwen3-4B-MoE8-ridge7-f16.gguf",
+      "path": "/home/noorm/models/moe/Qwen3-4B-MoE8-ridge7-f16.gguf",
+      "ppl": 166.7617,
+      "stderr": 26.81688,
+      "ratio_vs_first": 9.4641805190604
     }
   ]
 }

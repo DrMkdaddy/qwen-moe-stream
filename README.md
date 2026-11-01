@@ -60,7 +60,7 @@ The experts are **slices of a dense FFN**, not experts trained to be complete
 updates. `scripts/oracle_probe.py` gives the ceiling any router could reach for
 this partition: at `k=6/8`, even an oracle that picks the best experts and fits
 optimal weights leaves 0.16–0.39 relative L2 error in middle layers. That
-compounds over 36 layers. The measured top-6 point is **20.8920 PPL at 75% of FFN bytes** (1.19×
+compounds over 36 layers. The top-7 build measures 9.46x dense, which is non-monotonic against top-6 and points at a defect in that build rather than the partition. The measured top-6 point is **20.8920 PPL at 75% of FFN bytes** (1.19×
 the dense PPL); the per-layer FFN reconstruction error is 0.258. The top-k
 files are useful as a quality/IO frontier and as a test of the streaming
 layout; `--mode exact` is the faithful model.
