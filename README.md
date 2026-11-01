@@ -10,8 +10,8 @@ all 8 reproduces the original function numerically. A router and top-k mode are
 also included; top-k is a lossy codec and is measured as such.
 
 Code: https://github.com/DrMkdaddy/qwen-moe-stream  
-Model card source: [`hf/README.md`](hf/README.md) (weights are published separately;
-the upload script is `scripts/publish_hf.sh`).
+Weights: https://huggingface.co/StanzaAPI/qwen-moe-stream  
+Model card source: [`hf/README.md`](hf/README.md); upload script: `scripts/publish_hf.sh`.
 
 ## Results
 

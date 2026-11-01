@@ -10,7 +10,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-REPO="${1:-DrMkdaddy/qwen-moe-stream}"
+REPO="${1:-StanzaAPI/qwen-moe-stream}"
 MODEL_DIR="${MODEL_DIR:-/home/noorm/models/moe}"
 
 if command -v hf >/dev/null 2>&1; then
@@ -24,7 +24,7 @@ fi
 
 "${HF[@]}" auth whoami >/dev/null
 
-"${HF[@]}" repo create "$REPO" --repo-type model --exist-ok
+"${HF[@]}" repos create "$REPO" --repo-type model --exist-ok
 
 "${HF[@]}" upload "$REPO" "$ROOT/hf/README.md" README.md --repo-type model
 for name in \
