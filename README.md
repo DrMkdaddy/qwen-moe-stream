@@ -49,7 +49,10 @@ tensors, `madvise` after each expert):
 | streamed, evict after use | **0.78 GB** | 21.5 GB |
 
 The exact model's FFN alone is 5.38 GB and the whole file is 6.25 GB, so the
-streaming path holds roughly one expert per layer instead of the model.
+streaming path holds roughly one expert per layer instead of the model. Both
+rows are 4 tokens × 36 layers; the 0.78 GB run uses `--skip-dense` so the dense
+reference tensors are not resident. The same eviction schedule with the dense
+reference loaded peaks at 2.72 GB.
 
 ## Why top-k is lossy here
 
