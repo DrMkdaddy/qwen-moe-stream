@@ -92,7 +92,7 @@ for the oracle ceiling and the negative result on gradient-trained routers.
 
 ## Calibration and provenance
 
-The ridge router was fitted on 384 hidden states from public project READMEs
+The ridge router was fitted on 384 token positions per layer from public project READMEs
 and specification documents, dumped with a llama.cpp eval callback. No model
 weights were trained. No private user data was used. The conversion scripts
 and full methodology live at:
