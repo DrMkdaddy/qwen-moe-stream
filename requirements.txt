@@ -1,0 +1,3 @@
+numpy>=2.0
+# gguf-py from the llama.cpp checkout is used by the scripts.
+# `pip install gguf` also provides the reader/writer API.

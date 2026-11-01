@@ -1,0 +1,27 @@
+{
+  "text": "/home/noorm/projects/qwen-moe-stream/calib/heldout.txt",
+  "ctx": 512,
+  "models": [
+    {
+      "model": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "path": "/home/noorm/models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "ppl": 17.6203,
+      "stderr": 3.84602,
+      "ratio_vs_first": 1.0
+    },
+    {
+      "model": "Qwen3-4B-MoE8-exact-f16.gguf",
+      "path": "/home/noorm/models/moe/Qwen3-4B-MoE8-exact-f16.gguf",
+      "ppl": 17.6157,
+      "stderr": 3.83564,
+      "ratio_vs_first": 0.9997389374755254
+    },
+    {
+      "model": "Qwen3-4B-MoE8-ridge6-f16.gguf",
+      "path": "/home/noorm/models/moe/Qwen3-4B-MoE8-ridge6-f16.gguf",
+      "ppl": 20.892,
+      "stderr": 4.1103,
+      "ratio_vs_first": 1.1856778828964318
+    }
+  ]
+}

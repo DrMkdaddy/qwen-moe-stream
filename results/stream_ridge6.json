@@ -1,0 +1,12 @@
+{
+  "mode": "topk",
+  "evict": true,
+  "tokens": 4,
+  "layers": 36,
+  "model_bytes": 6250961696,
+  "bytes_touched": 16149381120,
+  "peak_rss_gb": 2.53188,
+  "seconds": 54.397584199905396,
+  "mean_relative_error": 0.2580060333841377,
+  "energy_ratio": 0.9894787481283116
+}

@@ -1,0 +1,17 @@
+# Model weights and calibration dumps are generated locally.
+*.gguf
+*.manifest.json
+calib/
+build_dump_hidden
+results/*.logits
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-*/
+.pytest_cache/
+
+# Editor / OS
+.DS_Store
+*.swp

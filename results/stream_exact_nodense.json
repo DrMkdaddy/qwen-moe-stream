@@ -1,0 +1,12 @@
+{
+  "mode": "exact",
+  "evict": true,
+  "tokens": 4,
+  "layers": 36,
+  "model_bytes": 6250961696,
+  "bytes_touched": 21528576000,
+  "peak_rss_gb": 0.775148,
+  "seconds": 21.295273303985596,
+  "mean_relative_error": null,
+  "energy_ratio": null
+}

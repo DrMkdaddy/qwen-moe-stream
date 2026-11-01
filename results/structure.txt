@@ -1,0 +1,9 @@
+architecture: qwen3moe
+experts: 8 used: 8 expert_ffn: 1216
+tensors: 434
+blk.0.ffn_gate_inp.weight ggml_shape= [np.uint64(2560), np.uint64(8)] dtype= F32
+blk.0.ffn_gate_exps.weight ggml_shape= [np.uint64(2560), np.uint64(1216), np.uint64(8)] dtype= F16
+blk.0.ffn_up_exps.weight ggml_shape= [np.uint64(2560), np.uint64(1216), np.uint64(8)] dtype= F16
+blk.0.ffn_down_exps.weight ggml_shape= [np.uint64(1216), np.uint64(2560), np.uint64(8)] dtype= F16
+blk.35.ffn_down_exps.weight ggml_shape= [np.uint64(1216), np.uint64(2560), np.uint64(8)] dtype= F16
+non-FFN bit-identical copy: token_embd dtype Q6_K

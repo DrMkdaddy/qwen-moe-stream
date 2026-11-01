@@ -1,0 +1,253 @@
+layer 00 step   1 mse=0.00436 rank=126.004 alpha=1.020
+layer 00 step  50 mse=0.00400 rank=2.782 alpha=1.658
+layer 00 step 100 mse=0.00317 rank=0.410 alpha=2.016
+layer 00 step 150 mse=0.00280 rank=0.127 alpha=2.258
+layer 00 step 200 mse=0.00259 rank=0.058 alpha=2.400
+layer 00 step 250 mse=0.00248 rank=0.035 alpha=2.488
+layer 00 done mse=0.00248 alpha=2.488
+layer 01 step   1 mse=0.00128 rank=10046.660 alpha=1.020
+layer 01 step  50 mse=0.00215 rank=139.868 alpha=1.113
+layer 01 step 100 mse=0.00190 rank=37.367 alpha=1.135
+layer 01 step 150 mse=0.00186 rank=19.218 alpha=1.162
+layer 01 step 200 mse=0.00172 rank=11.771 alpha=1.181
+layer 01 step 250 mse=0.00160 rank=7.923 alpha=1.199
+layer 01 done mse=0.00118 alpha=1.123
+layer 02 step   1 mse=0.00213 rank=50105.711 alpha=1.020
+layer 02 step  50 mse=0.00313 rank=557.969 alpha=1.087
+layer 02 step 100 mse=0.00278 rank=223.642 alpha=1.104
+layer 02 step 150 mse=0.00281 rank=150.969 alpha=1.120
+layer 02 step 200 mse=0.00283 rank=114.487 alpha=1.146
+layer 02 step 250 mse=0.00277 rank=92.238 alpha=1.166
+layer 02 done mse=0.00210 alpha=1.106
+layer 03 step   1 mse=0.00518 rank=17435.129 alpha=1.020
+layer 03 step  50 mse=0.00982 rank=305.659 alpha=1.055
+layer 03 step 100 mse=0.00969 rank=107.293 alpha=1.119
+layer 03 step 150 mse=0.01015 rank=64.179 alpha=1.223
+layer 03 step 200 mse=0.00907 rank=45.426 alpha=1.336
+layer 03 step 250 mse=0.00814 rank=35.169 alpha=1.540
+layer 03 done mse=0.00513 alpha=1.064
+layer 04 step   1 mse=0.01964 rank=794.065 alpha=1.020
+layer 04 step  50 mse=0.02186 rank=33.494 alpha=1.307
+layer 04 step 100 mse=0.02093 rank=8.839 alpha=1.533
+layer 04 step 150 mse=0.01803 rank=3.938 alpha=1.893
+layer 04 step 200 mse=0.01579 rank=2.112 alpha=2.159
+layer 04 step 250 mse=0.01388 rank=1.245 alpha=2.403
+layer 04 done mse=0.01388 alpha=2.403
+layer 05 step   1 mse=0.03322 rank=320.122 alpha=1.020
+layer 05 step  50 mse=0.03322 rank=12.582 alpha=1.418
+layer 05 step 100 mse=0.02891 rank=3.256 alpha=1.845
+layer 05 step 150 mse=0.02480 rank=1.311 alpha=2.321
+layer 05 step 200 mse=0.02131 rank=0.634 alpha=2.737
+layer 05 step 250 mse=0.01867 rank=0.349 alpha=3.059
+layer 05 done mse=0.01867 alpha=3.059
+layer 06 step   1 mse=0.17235 rank=408.777 alpha=1.020
+layer 06 step  50 mse=0.04571 rank=42.198 alpha=1.115
+layer 06 step 100 mse=0.04350 rank=28.921 alpha=1.106
+layer 06 step 150 mse=0.04325 rank=22.409 alpha=1.106
+layer 06 step 200 mse=0.04297 rank=18.142 alpha=1.106
+layer 06 step 250 mse=0.04280 rank=15.061 alpha=1.106
+layer 06 done mse=0.04280 alpha=1.106
+layer 07 step   1 mse=0.04663 rank=568.377 alpha=1.020
+layer 07 step  50 mse=0.04701 rank=23.014 alpha=1.357
+layer 07 step 100 mse=0.03969 rank=5.805 alpha=1.956
+layer 07 step 150 mse=0.03296 rank=2.207 alpha=2.590
+layer 07 step 200 mse=0.02732 rank=0.997 alpha=3.079
+layer 07 step 250 mse=0.02226 rank=0.510 alpha=3.599
+layer 07 done mse=0.02226 alpha=3.599
+layer 08 step   1 mse=0.06256 rank=314.497 alpha=1.020
+layer 08 step  50 mse=0.06141 rank=13.109 alpha=1.401
+layer 08 step 100 mse=0.04943 rank=2.945 alpha=2.191
+layer 08 step 150 mse=0.03837 rank=1.004 alpha=3.003
+layer 08 step 200 mse=0.03145 rank=0.438 alpha=3.588
+layer 08 step 250 mse=0.02828 rank=0.243 alpha=3.851
+layer 08 done mse=0.02828 alpha=3.851
+layer 09 step   1 mse=0.07710 rank=506.414 alpha=1.020
+layer 09 step  50 mse=0.07870 rank=29.595 alpha=1.388
+layer 09 step 100 mse=0.06806 rank=8.348 alpha=1.890
+layer 09 step 150 mse=0.05672 rank=3.244 alpha=2.599
+layer 09 step 200 mse=0.04600 rank=1.484 alpha=3.279
+layer 09 step 250 mse=0.03844 rank=0.761 alpha=3.797
+layer 09 done mse=0.03844 alpha=3.797
+layer 10 step   1 mse=0.07352 rank=499.946 alpha=1.020
+layer 10 step  50 mse=0.07735 rank=29.110 alpha=1.302
+layer 10 step 100 mse=0.06902 rank=8.880 alpha=1.610
+layer 10 step 150 mse=0.06116 rank=3.780 alpha=2.069
+layer 10 step 200 mse=0.05188 rank=1.909 alpha=2.657
+layer 10 step 250 mse=0.04369 rank=1.085 alpha=3.213
+layer 10 done mse=0.04369 alpha=3.213
+layer 11 step   1 mse=0.07393 rank=331.272 alpha=1.020
+layer 11 step  50 mse=0.07263 rank=19.305 alpha=1.427
+layer 11 step 100 mse=0.06480 rank=5.230 alpha=1.885
+layer 11 step 150 mse=0.05416 rank=1.975 alpha=2.596
+layer 11 step 200 mse=0.04228 rank=0.901 alpha=3.449
+layer 11 step 250 mse=0.03480 rank=0.477 alpha=4.045
+layer 11 done mse=0.03480 alpha=4.045
+layer 12 step   1 mse=0.06864 rank=369.118 alpha=1.020
+layer 12 step  50 mse=0.06771 rank=21.701 alpha=1.374
+layer 12 step 100 mse=0.06240 rank=6.310 alpha=1.666
+layer 12 step 150 mse=0.05503 rank=2.585 alpha=2.230
+layer 12 step 200 mse=0.04621 rank=1.232 alpha=2.896
+layer 12 step 250 mse=0.03857 rank=0.649 alpha=3.516
+layer 12 done mse=0.03857 alpha=3.516
+layer 13 step   1 mse=0.07233 rank=649.062 alpha=1.020
+layer 13 step  50 mse=0.07450 rank=30.102 alpha=1.359
+layer 13 step 100 mse=0.06902 rank=9.859 alpha=1.627
+layer 13 step 150 mse=0.06315 rank=4.402 alpha=1.958
+layer 13 step 200 mse=0.05664 rank=2.263 alpha=2.357
+layer 13 step 250 mse=0.05031 rank=1.271 alpha=2.756
+layer 13 done mse=0.05031 alpha=2.756
+layer 14 step   1 mse=0.06138 rank=595.350 alpha=1.020
+layer 14 step  50 mse=0.06287 rank=29.716 alpha=1.322
+layer 14 step 100 mse=0.05876 rank=8.890 alpha=1.515
+layer 14 step 150 mse=0.05396 rank=3.669 alpha=1.845
+layer 14 step 200 mse=0.04925 rank=1.749 alpha=2.181
+layer 14 step 250 mse=0.04404 rank=0.917 alpha=2.591
+layer 14 done mse=0.04404 alpha=2.591
+layer 15 step   1 mse=0.05679 rank=711.707 alpha=1.020
+layer 15 step  50 mse=0.05994 rank=32.796 alpha=1.317
+layer 15 step 100 mse=0.05604 rank=10.347 alpha=1.471
+layer 15 step 150 mse=0.05201 rank=4.223 alpha=1.704
+layer 15 step 200 mse=0.04761 rank=1.931 alpha=2.015
+layer 15 step 250 mse=0.04321 rank=0.952 alpha=2.345
+layer 15 done mse=0.04321 alpha=2.345
+layer 16 step   1 mse=0.06820 rank=796.343 alpha=1.020
+layer 16 step  50 mse=0.05765 rank=36.383 alpha=1.025
+layer 16 step 100 mse=0.05623 rank=11.201 alpha=1.019
+layer 16 step 150 mse=0.05420 rank=4.375 alpha=1.031
+layer 16 step 200 mse=0.05299 rank=1.953 alpha=1.023
+layer 16 step 250 mse=0.05293 rank=2.605 alpha=1.030
+layer 16 done mse=0.05231 alpha=1.034
+layer 17 step   1 mse=0.05535 rank=728.451 alpha=1.020
+layer 17 step  50 mse=0.05833 rank=33.693 alpha=1.324
+layer 17 step 100 mse=0.05350 rank=11.010 alpha=1.523
+layer 17 step 150 mse=0.04953 rank=4.733 alpha=1.807
+layer 17 step 200 mse=0.04527 rank=2.299 alpha=2.122
+layer 17 step 250 mse=0.04052 rank=1.226 alpha=2.517
+layer 17 done mse=0.04052 alpha=2.517
+layer 18 step   1 mse=0.06134 rank=887.368 alpha=1.020
+layer 18 step  50 mse=0.06683 rank=38.220 alpha=1.197
+layer 18 step 100 mse=0.06152 rank=13.701 alpha=1.456
+layer 18 step 150 mse=0.05776 rank=6.223 alpha=1.633
+layer 18 step 200 mse=0.05353 rank=3.145 alpha=1.878
+layer 18 step 250 mse=0.04901 rank=1.705 alpha=2.177
+layer 18 done mse=0.04901 alpha=2.177
+layer 19 step   1 mse=0.07836 rank=796.084 alpha=1.020
+layer 19 step  50 mse=0.08491 rank=37.986 alpha=1.239
+layer 19 step 100 mse=0.07812 rank=11.534 alpha=1.447
+layer 19 step 150 mse=0.07162 rank=4.513 alpha=1.752
+layer 19 step 200 mse=0.06367 rank=2.006 alpha=2.159
+layer 19 step 250 mse=0.05552 rank=0.994 alpha=2.623
+layer 19 done mse=0.05552 alpha=2.623
+layer 20 step   1 mse=0.08771 rank=723.488 alpha=1.020
+layer 20 step  50 mse=0.09170 rank=35.989 alpha=1.266
+layer 20 step 100 mse=0.08449 rank=10.783 alpha=1.534
+layer 20 step 150 mse=0.07704 rank=4.244 alpha=1.832
+layer 20 step 200 mse=0.06690 rank=1.938 alpha=2.350
+layer 20 step 250 mse=0.05436 rank=1.024 alpha=3.046
+layer 20 done mse=0.05436 alpha=3.046
+layer 21 step   1 mse=0.11027 rank=721.202 alpha=1.020
+layer 21 step  50 mse=0.11475 rank=40.613 alpha=1.236
+layer 21 step 100 mse=0.10521 rank=11.538 alpha=1.559
+layer 21 step 150 mse=0.09406 rank=4.175 alpha=1.960
+layer 21 step 200 mse=0.07740 rank=1.788 alpha=2.662
+layer 21 step 250 mse=0.05847 rank=0.919 alpha=3.550
+layer 21 done mse=0.05847 alpha=3.550
+layer 22 step   1 mse=0.16755 rank=715.311 alpha=1.020
+layer 22 step  50 mse=0.17688 rank=35.424 alpha=1.243
+layer 22 step 100 mse=0.15875 rank=9.312 alpha=1.592
+layer 22 step 150 mse=0.13647 rank=3.454 alpha=2.145
+layer 22 step 200 mse=0.11365 rank=1.564 alpha=2.786
+layer 22 step 250 mse=0.08802 rank=0.887 alpha=3.576
+layer 22 done mse=0.08802 alpha=3.576
+layer 23 step   1 mse=0.23383 rank=594.859 alpha=1.020
+layer 23 step  50 mse=0.23914 rank=32.498 alpha=1.195
+layer 23 step 100 mse=0.21413 rank=7.683 alpha=1.649
+layer 23 step 150 mse=0.16976 rank=2.516 alpha=2.488
+layer 23 step 200 mse=0.13231 rank=1.262 alpha=3.491
+layer 23 step 250 mse=0.08994 rank=0.568 alpha=4.127
+layer 23 done mse=0.08994 alpha=4.127
+layer 24 step   1 mse=0.30758 rank=746.031 alpha=1.020
+layer 24 step  50 mse=0.31418 rank=42.402 alpha=1.251
+layer 24 step 100 mse=0.27401 rank=11.828 alpha=1.832
+layer 24 step 150 mse=0.23388 rank=4.546 alpha=2.394
+layer 24 step 200 mse=0.18656 rank=2.087 alpha=3.260
+layer 24 step 250 mse=0.14153 rank=1.205 alpha=4.146
+layer 24 done mse=0.13799 alpha=4.117
+layer 25 step   1 mse=0.33561 rank=686.488 alpha=1.020
+layer 25 step  50 mse=0.34954 rank=42.119 alpha=1.183
+layer 25 step 100 mse=0.31396 rank=12.169 alpha=1.530
+layer 25 step 150 mse=0.27188 rank=4.752 alpha=2.195
+layer 25 step 200 mse=0.22228 rank=2.318 alpha=2.860
+layer 25 step 250 mse=0.28627 rank=3.555 alpha=3.171
+layer 25 done mse=0.18435 alpha=3.412
+layer 26 step   1 mse=0.40351 rank=828.767 alpha=1.020
+layer 26 step  50 mse=0.41877 rank=46.532 alpha=1.231
+layer 26 step 100 mse=0.36603 rank=13.938 alpha=1.718
+layer 26 step 150 mse=0.30645 rank=5.998 alpha=2.415
+layer 26 step 200 mse=0.28613 rank=3.625 alpha=2.914
+layer 26 step 250 mse=0.22577 rank=2.082 alpha=3.356
+layer 26 done mse=0.22577 alpha=3.356
+layer 27 step   1 mse=0.63990 rank=1190.879 alpha=1.020
+layer 27 step  50 mse=0.71164 rank=73.441 alpha=1.206
+layer 27 step 100 mse=0.63119 rank=25.339 alpha=1.478
+layer 27 step 150 mse=0.58953 rank=12.431 alpha=1.744
+layer 27 step 200 mse=0.56165 rank=7.630 alpha=1.828
+layer 27 step 250 mse=0.51224 rank=5.000 alpha=2.044
+layer 27 done mse=0.50473 alpha=2.031
+layer 28 step   1 mse=0.98568 rank=1125.603 alpha=1.020
+layer 28 step  50 mse=1.05089 rank=73.269 alpha=1.200
+layer 28 step 100 mse=0.97169 rank=25.159 alpha=1.434
+layer 28 step 150 mse=0.98616 rank=13.949 alpha=1.703
+layer 28 step 200 mse=0.86235 rank=7.514 alpha=1.786
+layer 28 step 250 mse=0.90839 rank=5.640 alpha=1.971
+layer 28 done mse=0.81648 alpha=1.908
+layer 29 step   1 mse=1.16097 rank=1515.669 alpha=1.020
+layer 29 step  50 mse=1.29363 rank=87.765 alpha=1.232
+layer 29 step 100 mse=1.17205 rank=31.258 alpha=1.527
+layer 29 step 150 mse=1.15931 rank=16.246 alpha=1.669
+layer 29 step 200 mse=1.07370 rank=9.676 alpha=1.808
+layer 29 step 250 mse=1.06849 rank=6.656 alpha=1.796
+layer 29 done mse=1.03159 alpha=1.904
+layer 30 step   1 mse=1.64203 rank=2011.323 alpha=1.020
+layer 30 step  50 mse=1.81307 rank=116.203 alpha=1.226
+layer 30 step 100 mse=1.65540 rank=42.686 alpha=1.477
+layer 30 step 150 mse=1.60514 rank=22.285 alpha=1.600
+layer 30 step 200 mse=1.52238 rank=13.770 alpha=1.641
+layer 30 step 250 mse=1.50204 rank=9.859 alpha=1.779
+layer 30 done mse=1.47119 alpha=1.813
+layer 31 step   1 mse=1.84380 rank=2140.448 alpha=1.020
+layer 31 step  50 mse=2.03186 rank=116.850 alpha=1.236
+layer 31 step 100 mse=1.88266 rank=43.235 alpha=1.475
+layer 31 step 150 mse=1.76306 rank=23.124 alpha=1.651
+layer 31 step 200 mse=1.73012 rank=14.569 alpha=1.784
+layer 31 step 250 mse=1.72408 rank=11.003 alpha=1.839
+layer 31 done mse=1.65635 alpha=1.792
+layer 32 step   1 mse=2.07529 rank=2282.010 alpha=1.020
+layer 32 step  50 mse=2.23682 rank=135.410 alpha=1.130
+layer 32 step 100 mse=2.09265 rank=55.728 alpha=1.414
+layer 32 step 150 mse=2.00784 rank=31.511 alpha=1.471
+layer 32 step 200 mse=1.90352 rank=20.900 alpha=1.691
+layer 32 step 250 mse=1.93140 rank=15.227 alpha=1.509
+layer 32 done mse=1.88366 alpha=1.625
+layer 33 step   1 mse=2.77406 rank=4523.021 alpha=1.020
+layer 33 step  50 mse=3.51738 rank=214.501 alpha=1.149
+layer 33 step 100 mse=3.17899 rank=90.943 alpha=1.313
+layer 33 step 150 mse=3.00155 rank=51.341 alpha=1.303
+layer 33 step 200 mse=2.89927 rank=33.446 alpha=1.308
+layer 33 step 250 mse=2.83006 rank=22.624 alpha=1.357
+layer 33 done mse=2.77350 alpha=1.039
+layer 34 step   1 mse=21.12860 rank=6920.508 alpha=1.020
+layer 34 step  50 mse=16.16014 rank=287.169 alpha=1.879
+layer 34 step 100 mse=13.71454 rank=120.753 alpha=2.400
+layer 34 step 150 mse=12.66043 rank=76.327 alpha=2.622
+layer 34 step 200 mse=12.51611 rank=52.929 alpha=2.786
+layer 34 step 250 mse=11.79965 rank=42.755 alpha=2.891
+layer 34 done mse=11.20977 alpha=2.885
+layer 35 step   1 mse=8.42433 rank=17893.807 alpha=1.020
+layer 35 step  50 mse=15.66823 rank=683.110 alpha=1.235
+layer 35 step 100 mse=14.15688 rank=277.817 alpha=1.276
+layer 35 step 150 mse=13.81688 rank=169.303 alpha=1.297
+layer 35 step 200 mse=13.27049 rank=122.754 alpha=1.268
+layer 35 step 250 mse=13.03500 rank=93.340 alpha=1.260
+layer 35 done mse=8.21242 alpha=1.060
+wrote results/router_top6.npz
