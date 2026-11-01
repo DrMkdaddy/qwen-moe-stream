@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this conversion or the streaming executor, cite the repository."
+title: "qwen-moe-stream: exact dense-to-MoE GGUF reformat and expert streaming"
+abstract: >-
+  A format-level conversion of Qwen3-4B-Instruct-2507 from a dense GGUF to an
+  8-expert qwen3moe GGUF, with an exact full-fanout path, a measured top-k
+  lossy path, and an mmap-based expert streaming executor.
+authors:
+  - family-names: Mkdad
+    given-names: Noor
+repository-code: "https://github.com/DrMkdaddy/qwen-moe-stream"
+license: MIT
+date-released: "2026-11-01"
