@@ -40,14 +40,16 @@ def main():
 
     with open(args.model, "r+b") as f:
         mm = np.memmap(f, dtype=np.uint8, mode="r+")
-        for name, t in routers.items():
+        for name, tensor in routers.items():
+            offset = int(tensor.data_offset)
+            count = int(tensor.n_elements)
             if args.restore:
                 arr = data[name].astype(np.float32)
             else:
-                arr = np.frombuffer(mm, dtype=np.float32, count=t.n_elements,
-                                    offset=int(t.data_offset)).copy()
+                arr = np.frombuffer(mm, dtype=np.float32, count=count, offset=offset).copy()
                 arr *= args.scale
-            mm[int(t.data_offset):int(t.data_offset) + int(t.n_bytes)] = arr.astype(np.float32).tobytes()
+            payload = arr.astype(np.float32).tobytes()
+            mm[offset:offset + len(payload)] = np.frombuffer(payload, dtype=np.uint8)
         mm.flush()
         del mm
     print(f"patched {len(routers)} routers, scale={args.scale}")
