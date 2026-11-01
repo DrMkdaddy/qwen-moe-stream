@@ -2,7 +2,7 @@
 
 | file | what it is |
 |---|---|
-| `dense.logits` | dense-model logits on `calib/heldout.txt` (74 MB, `llama-perplexity --save-all-logits`) |
+| `dense.logits` | dense-model logits on `calib/heldout.txt` (74 MB; generated locally, not committed) |
 | `structure.txt` | GGUF architecture, expert count, tensor shapes |
 | `stream_exact_nodense.json` | exact MoE, 4 tokens × 36 layers, evict each expert |
 | `stream_exact_resident.json` | same, no eviction (pages accumulate) |
