@@ -26,6 +26,7 @@ Held-out perplexity, 512-token context, CPU (`llama-perplexity`):
 | dense Qwen3-4B (Q4_K_M) | **17.6203** | 1.000× | 0 (dense tensor) |
 | MoE8 exact, all 8 experts | **17.6157** | 0.9997× | 5.379 GB |
 | MoE8 top-6, ridge router | **20.8920** | 1.186× | 4.037 GB |
+| MoE8 top-7, ridge router | **17.7829** | 1.011× | 4.710 GB |
 
 Logit-level comparison of exact MoE against the dense model on the same
 held-out text (`--kl-divergence`):
@@ -60,7 +61,7 @@ The experts are **slices of a dense FFN**, not experts trained to be complete
 updates. `scripts/oracle_probe.py` gives the ceiling any router could reach for
 this partition: at `k=6/8`, even an oracle that picks the best experts and fits
 optimal weights leaves 0.16–0.39 relative L2 error in middle layers. That
-compounds over 36 layers. The top-7 build measures 9.46x dense, which is non-monotonic against top-6 and points at a defect in that build rather than the partition. The measured top-6 point is **20.8920 PPL at 75% of FFN bytes** (1.19×
+compounds over 36 layers. The frontier is monotonic: top-7 measures 1.011x dense at 87.5% of FFN bytes, top-6 measures 1.186x at 75%. The measured top-6 point is **20.8920 PPL at 75% of FFN bytes** (1.19×
 the dense PPL); the per-layer FFN reconstruction error is 0.258. The top-k
 files are useful as a quality/IO frontier and as a test of the streaming
 layout; `--mode exact` is the faithful model.
