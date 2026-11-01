@@ -36,6 +36,8 @@ the same function. The exact model matches the source within F16 round-off.
 | `Qwen3-4B-MoE8-ridge6-f16.gguf` | 6.25 GB | lossy top-6 variant, 75% of FFN bytes |
 | `Qwen3-4B-MoE8-exact-f16.manifest.json` | 2.1 MB | tensor offsets, expert byte ranges, permutation hashes |
 
+Checksums are in [`results/CHECKSUMS.txt`](https://github.com/DrMkdaddy/qwen-moe-stream/blob/main/results/CHECKSUMS.txt).
+
 The non-FFN tensors (attention, embeddings, LM head) are copied bit-for-bit
 from the source Q4_K_M file. The FFN experts are written F16 after
 dequantization. The source is Q4_K_M, so the F16 conversion carries that
