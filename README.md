@@ -82,6 +82,7 @@ scripts/router_diag.py   routing precision vs subset approximation
 tests/test_expert_math.py exactness of the partition algebra
 docs/DESIGN.md           the abstraction, the conservation law, the schedule
 docs/FUTURE.md           format-level MoE -> upcycled MoE -> distilled MoE
+docs/TOKENIZERS.md       H-Net, BLT, and what tokenizer-free actually changes
 ```
 
 Expert tensor shapes follow llama.cpp's `qwen3moe` convention:

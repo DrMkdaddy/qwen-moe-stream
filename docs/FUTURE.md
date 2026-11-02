@@ -37,6 +37,9 @@ project, not a weight merge.
 
 ### The tokenizer problem
 
+See [`TOKENIZERS.md`](TOKENIZERS.md) for H-Net/BLT and why a tokenizer swap is
+a new model, not a drop-in change.
+
 Qwen and DeepSeek use different tokenizers. Logit distillation requires a
 shared vocabulary (or a projection between vocabularies, which is expensive and
 lossy). The practical options are:
